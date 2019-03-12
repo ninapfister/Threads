@@ -5,6 +5,7 @@ public class NewThreadSubclass extends Thread
         System.out.println("Hello Thread");
     }
 
+
     public static void main (String[]args)
     {
         NewThreadSubclass newThread = new NewThreadSubclass();
